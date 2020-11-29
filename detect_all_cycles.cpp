@@ -33,7 +33,7 @@ void dfs_cycle(int node,int parent,int color[],int mark[],int par[],int cyclenum
 		dfs_cycle(graph[node][ii],node,color,mark,par,cyclenumber);
 	}
 	//all descendants seen so change the color
-	color[node]==2;
+	color[node]=2;
 }
 
 // add the edges to the graph 
